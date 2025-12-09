@@ -1,0 +1,67 @@
+header {
+    padding: 16px 104px;
+}
+
+header .logo-navlinks-cta {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo-navlinks-cta .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header .logo-navlinks-cta .logo .brand-name {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.6rem;
+    color: #fff;
+    margin-left: 9px;
+}
+
+header .logo-navlinks-cta .logo .brand-name .second-part{
+    color: #9BC0FF;
+}
+
+header .logo-navlinks-cta .navlinks-cta .navlinks {
+    list-style: none;
+    text-transform: capitalize;
+    display: flex;
+    margin-right: 32spx;
+}
+header .logo-navlinks-cta .navlinks-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo-navlinks-cta .navlinks-cta .navlinks a {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+header .logo-navlinks-cta .navlinks-cta .navlinks li {
+    margin-right: 24px;
+}
+
+header .logo-navlinks-cta .navlinks-cta .cta-button button{
+    outline: none;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+}
