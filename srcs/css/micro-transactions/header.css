@@ -1,2 +1,41 @@
 /* Micro transactions for links */
 
+header .navlinks li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .navlinks li::before {
+    content: "";
+    width: 0%;
+    height: 2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -5px;
+    transition: width 0.2s ease;
+    -webkit-transition: width 0.2s ease;
+    -moz-transition: width 0.2s ease;
+    -ms-transition: width 0.2s ease;
+    -o-transition: width 0.2s ease;
+}
+
+header .navlinks li:hover::before {
+    width: 50%;
+}
+
+/* Header CTA button*/
+
+header .cta-button button:hover {
+    cursor: pointer;
+    background-color: #fff !important;
+    color: #3693D6   !important;
+}
+
