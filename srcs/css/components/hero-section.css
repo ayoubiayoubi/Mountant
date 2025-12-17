@@ -5,7 +5,7 @@
 .hero-section {
     height: 100vh;
     width: 100%;
-    background-image: url(../../assets/imgs/hero-section.jpg);
+    background-image: url('../../assets/imgs/hero-section.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -14,7 +14,7 @@
 .hero-section main .hero-section-content {
     width: 50%;
     height: calc(100vh - 106px);
-    margin: 32px calc(50% / 2);
+    margin: 32px calc(50% / 2) 0px;
 }
 
 .hero-section main .hero-section-content .title {
@@ -56,4 +56,8 @@
     -o-border-radius: 32px;
     outline: none;
     border: none;
+}
+
+.hero-section main .hero-section-content .cta-button button:hover {
+    cursor: pointer;
 }

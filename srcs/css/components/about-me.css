@@ -1,0 +1,28 @@
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    background-color: #9BC0FF;
+    padding: 72px 0px;
+}
+
+.about-me-section .title {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 900;
+    color: #3693D6;
+    margin-bottom: 24px;
+}
+
+.about-me-section .about-me-para {
+    font-size: 24px;
+    color: #003357;
+    line-height: 2.5rem;
+}
+
+.about-me-container {
+    width: 75%;
+    text-align: center;
+}
