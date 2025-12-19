@@ -1,0 +1,50 @@
+@import url('../variables.css');
+
+.testimonials-section .title {
+    text-align: center;
+    font-family: var(--primary-typeface);
+    color: var(--primary-color);
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 80px;
+}
+
+.testimonials-content {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(5, 80px);
+    gap: 24px;
+}
+
+
+
+.testimonials-content .testi-1 {
+    grid-column: 1 / 4;
+}
+
+.testimonials-content .testi-1,
+.testimonials-content .testi-2,
+.testimonials-content .testi-3 {
+    grid-row: 1 / 5;
+    background-color: #F3F5F7;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.testimonials-content .testi-2 {
+    grid-column: 4 / 7;
+}
+
+.testimonials-content .testi-3 {
+    grid-column: 7 / 10;
+}
+
+.testimonials-content .testi-1:hover,
+.testimonials-content .testi-2:hover,
+.testimonials-content .testi-3:hover {
+    box-shadow: 0px 0px 3px var(--secondary-color);
+}
