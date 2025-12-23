@@ -6,6 +6,7 @@
 @import url('./variables.css');
 @import url('./micro-transactions/our-work.css');
 @import url('./components/testimonials.css');
+
 * {
     padding: 0;
     margin: 0;
@@ -15,4 +16,30 @@
 .container {
     width: calc(100% - var(--large-screen-size-container));
     margin: 0 auto;
+}
+
+/* Type face Gloss */
+@font-face {
+    font-family: "Gloss And Bloom";
+    src: url('../assets/fonts/Gloss_And_Bloom.ttf') format('woff');
+}
+
+/* Loto type face */
+
+/* black lato type face */
+@font-face {
+    font-family: "Lato", sans-serif;
+    src: url(../assets/fonts/Lato-Black.ttf) format('woff');
+    font-weight: 900;
+}
+/* bold Lato type face */
+@font-face {
+    font-family: "Lato", sans-serif;
+    src: url(../assets/fonts/Lato-Bold.ttf) format('woff');
+    font-weight: 700;
+}
+/* regular Lato type face */
+@font-face {
+    font-family: "Lato", sans-serif;
+    src: url(../assets/fonts/Lato-Regular.ttf) format("woff");
 }

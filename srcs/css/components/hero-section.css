@@ -1,10 +1,6 @@
 @import url('../variables.css');
 
-/* Type face */
-@font-face {
-    font-family: "Gloss And Bloom";
-    src: url(../../assets/fonts/Gloss_And_Bloom.ttf) format('woff');
-}
+
 .hero-section {
     height: 100vh;
     width: 100%;
