@@ -5,62 +5,12 @@
     height: 100vh;
     width: 100%;
     background-image: url('../../assets/imgs/hero-section.jpg');
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: 20% 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+    background-position: center center;
 }
 
-.hero-section .title {
-    font-family: "Gloss And Bloom";
-    color: #fff;
-    transform: rotate(-9deg);
-    -webkit-transform: rotate(-9deg);
-    -moz-transform: rotate(-9deg);
-    -ms-transform: rotate(-9deg);
-    -o-transform: rotate(-9deg);
-    position: absolute;
-    top: 26%;
-}
-
-.hero-section .title .first-part {
-    text-align: center;
-    font-size: 3rem;
-
-}
-
-.hero-section .title .second-part {
-    text-align: right;
-    font-size: 34px;
-
-}
-
-.hero-section .cta-button {
-    position: absolute;
-    top: 70%;
-}
-
-.hero-section .cta-button button {
-    padding: 16px 32px;
-    background: #fff;
-    color: var(--secondary-color);
-    border-radius: 32px;
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-transform: capitalize;
-    -webkit-border-radius: 32px;
-    -moz-border-radius: 32px;
-    -ms-border-radius: 32px;
-    -o-border-radius: 32px;
-    outline: none;
-    border: none;
-    /* position: absolute; */
-}
-
-/* .hero-section main .hero-section-content {
+.hero-section main .hero-section-content {
     width: 50%;
     height: calc(100vh - 114px);
     margin: 24px calc(50% / 2) 0px;
@@ -109,4 +59,4 @@
 
 .hero-section main .hero-section-content .cta-button button:hover {
     cursor: pointer;
-} */
+}
