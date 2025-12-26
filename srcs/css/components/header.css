@@ -1,30 +1,79 @@
 @import url('../variables.css');
+
 header {
-    padding: 24px 0px;
-}
-
-header .logo-navlinks-cta {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
-header .logo-navlinks-cta .logo {
+header .logo {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
+header .brand-logo {
+    width: 50px;
+}
 
-header .logo-navlinks-cta .logo .brand-name {
+header input {
+    display: none;
+}
+
+header .hamburger {
+    position: relative;
+    width: 30px;
+    height: 19px;
+}
+
+header .hamburger span {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    right: 0;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.hamburger span:nth-child(2) {
+    top: 8px;
+    width: 15px;
+}
+
+.hamburger span:nth-child(3) {
+    top: 16px;
+}
+
+/* header .logo-navlinks-cta {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* header .logo-navlinks-cta .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+header .logo .brand-name {
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: #fff;
     margin-left: 9px;
 }
 
-header .logo-navlinks-cta .logo .brand-name .second-part {
+header .logo .brand-name .second-part {
     color: var(--secondary-color);
 }
 
@@ -34,6 +83,7 @@ header .logo-navlinks-cta .navlinks-cta .navlinks {
     display: flex;
     margin-right: 32spx;
 }
+
 header .logo-navlinks-cta .navlinks-cta {
     display: flex;
     justify-content: center;
@@ -52,7 +102,7 @@ header .logo-navlinks-cta .navlinks-cta .navlinks li {
     margin-right: 32px;
 }
 
-header .logo-navlinks-cta .navlinks-cta .cta-button button{
+header .logo-navlinks-cta .navlinks-cta .cta-button button {
     outline: none;
     border: 1px solid #fff;
     background-color: transparent;
@@ -66,5 +116,3 @@ header .logo-navlinks-cta .navlinks-cta .cta-button button{
     -ms-border-radius: 32px;
     -o-border-radius: 32px;
 }
-
-
